@@ -4,12 +4,17 @@ const ServiceCard = ({ title, description, price, features }) => {
   return (
     <div className="border border-gray-300 rounded-lg p-6 md:p-8 flex flex-col items-center justify-between shadow-lg">
       <div className="flex flex-col items-center">
+        {/* Title */}
         <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center uppercase">{title}</h3>
         
+        {/* Description */}
         <div className="flex-grow flex items-center mb-6">
-          <p className="text-gray-600 text-center text-sm md:text-base">{description}</p>
+          <p className="text-gray-600 text-center text-sm md:text-base">
+            {description}
+          </p>
         </div>
         
+        {/* Features List */}
         <ul className="text-gray-700 text-left w-full mb-6 space-y-2">
           {features.map((feature, index) => (
             <li key={index} className="flex items-center text-sm md:text-base">
@@ -22,13 +27,18 @@ const ServiceCard = ({ title, description, price, features }) => {
         </ul>
       </div>
 
+      {/* Price and Button Section */}
       <div className="flex flex-col items-center mt-auto"> 
-        <span className="text-lg md:text-xl font-bold text-[#37B2E5] mb-4">{price}</span>
+        {/* Price */}
+        <span className="text-lg md:text-xl font-bold text-[#37B2E5] mb-4">
+          {price}
+        </span>
 
+        {/* Button */}
         <button
           className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-3 px-6 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-sm md:text-base"
         >
-          Let's Get Started!
+          Let&apos;s Get Started!
         </button>
       </div>
     </div>

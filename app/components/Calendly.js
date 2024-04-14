@@ -2,6 +2,9 @@
 import React from 'react';
 import { InlineWidget } from 'react-calendly';
 
+import React from 'react';
+import { InlineWidget } from 'react-calendly';
+
 const CalendlyComponent = ({ url }) => {
   return (
     <section className="py-12 bg-gray-100">
@@ -13,7 +16,7 @@ const CalendlyComponent = ({ url }) => {
                 Schedule a Consultation
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Let's chat about your business finances and see how we can help!
+                Let&apos;s chat about your business finances and see how we can help!
               </p>
             </div>
           </div>
@@ -23,9 +26,9 @@ const CalendlyComponent = ({ url }) => {
               className="calendly-inline-widget"
               styles={{
                 width: '100%',
-                maxWidth: '500px', // Adjust as needed for responsiveness
-                height: '600px', // Adjust height based on content
-                border: 'none', // Remove default border
+                maxWidth: '500px', 
+                height: '600px', 
+                border: 'none', 
               }}
             />
           </div>
@@ -36,3 +39,4 @@ const CalendlyComponent = ({ url }) => {
 };
 
 export default CalendlyComponent;
+
