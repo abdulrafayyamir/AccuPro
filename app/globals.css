@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 
-body {
-    font-family: 'DM Serif Display', serif;
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
   }
   

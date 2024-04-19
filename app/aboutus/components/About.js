@@ -1,10 +1,12 @@
 import React from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
+
 const AboutUs = () => {
   return (
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
 
+        {/* Section 1: About the Firm */}
         <div className="mb-12 pb-8 flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-8">
             <img src='/images/accountingfirm.png' alt="Section 1 Image" className="rounded-lg mb-4 md:mb-0 shadow-lg" />
@@ -23,6 +25,7 @@ const AboutUs = () => {
         {/* Section 2: Our Core Values */}
         <div className="mb-12 pb-8 flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-8">
+            <img src='/images/corevalues.jpg' alt="Section 2 Image" className="rounded-lg shadow-lg mb-4 md:mb-0" />
             <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center md:text-left uppercase">Our Core Values</h2>
             <ul className="list-disc list-inside text-lg text-gray-600 mb-6 text-center md:text-left">
               <li className="mb-4">
@@ -52,7 +55,7 @@ const AboutUs = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/2">
-            <img src='/images/corevalues.jpg' alt="Section 2 Image" className="rounded-lg shadow-lg" />
+            {/* Placeholder for Section 2 Image */}
           </div>
         </div>
 
@@ -76,14 +79,13 @@ const AboutUs = () => {
           <p className="text-lg text-gray-600 mb-6">
             You&apos;re making money, but you&apos;re not sure where it&apos;s all going… You want to grow your team, but you&apos;re not sure the numbers make sense… You want to pay yourself, but you&apos;re not sure how… You thought your CPA was going to take care of your bookkeeping at the end of the year, until they didn&apos;t… Your tax bill shocked you this year, next year you don&apos;t want surprises…
           </p>
-        <div className="flex justify-center">
-          <Link href="/servicess">
+          <div className="flex justify-center">
+            <Link href="/services">
               <button className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-3 md:px-4 rounded shadow-md">
-              Let&apos;s Get Started!
+                Let&apos;s Get Started!
               </button>
-          </Link>
-        </div>
-
+            </Link>
+          </div>
         </div>
 
       </div>

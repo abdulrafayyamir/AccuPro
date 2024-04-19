@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <>
       <Head>
         
-        <title>AccuPro Bookkeeping LLC</title>
+        
         
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
