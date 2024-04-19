@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link'
 const AboutUs = () => {
   return (
     <section className="py-12 bg-gray-100">
@@ -7,12 +7,12 @@ const AboutUs = () => {
 
         <div className="mb-12 pb-8 flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-8">
-            <img src='/images/accounting.jpg' alt="Section 1 Image" className="rounded-lg mb-4 md:mb-0 shadow-lg" />
+            <img src='/images/accountingfirm.png' alt="Section 1 Image" className="rounded-lg mb-4 md:mb-0 shadow-lg" />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center md:text-left uppercase">About the Firm</h2>
             <p className="text-lg text-gray-600 mb-6 text-center md:text-left">
-              At AccuPro Bookkeeping, we&apos;re all about making your finances simple. Our mission is to help business owners get a clear picture of their finances and use those insights to make smart business moves.
+              At AccuPro Bookkeeping LLC, we&apos;re all about making your finances simple. Our mission is to help business owners get a clear picture of their finances and use those insights to make smart business moves.
             </p>
             <p className="text-lg text-gray-600 mb-6 text-center md:text-left">
               We know that accounting can seem old-fashioned and intimidating. That&apos;s why we&apos;re committed to bringing you a fresh, friendly bookkeeping experience.
@@ -52,7 +52,7 @@ const AboutUs = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/2">
-            <img src='/images/accounting.jpg' alt="Section 2 Image" className="rounded-lg shadow-lg" />
+            <img src='/images/corevalues.jpg' alt="Section 2 Image" className="rounded-lg shadow-lg" />
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4 text-center md:text-left uppercase">Meet Ali</h2>
             <h3 className="text-2xl text-gray-800 mb-6 text-center md:text-left">The Dreamer Behind AccuPro</h3>
             <p className="text-lg text-gray-600 mb-6 text-center md:text-left">
-              A business enthusiast who turned their dream into reality. A year ago, everything was put on the line to breathe life into AccuPro. It was more than just a business; it was a dream, a passion that demanded hard work and dedication every single day. Today, AccuPro stands as a testament to that dream. Within just a year, it has grown to become a trusted bookkeeper for numerous businesses. AccuPro is not just about bookkeeping; it&apos;s about building trust, about being there for businesses when they need it the most.
+              A business enthusiast who turned his dream into reality. An year ago, everything was put on the line to breathe life into AccuPro. It was more than just a business; it was a dream, a passion that demanded hard work and dedication every single day. Today, AccuPro stands as a testament to that dream. Within just a year, it has grown to become a trusted bookkeeping firm for numerous businesses. AccuPro is not just about bookkeeping; it&apos;s about building trust, about being there for businesses when they need it the most.
             </p>
           </div>
         </div>
@@ -76,11 +76,14 @@ const AboutUs = () => {
           <p className="text-lg text-gray-600 mb-6">
             You&apos;re making money, but you&apos;re not sure where it&apos;s all going… You want to grow your team, but you&apos;re not sure the numbers make sense… You want to pay yourself, but you&apos;re not sure how… You thought your CPA was going to take care of your bookkeeping at the end of the year, until they didn&apos;t… Your tax bill shocked you this year, next year you don&apos;t want surprises…
           </p>
-          <div className="flex justify-center">
-            <a href="#" className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-3 md:px-4 rounded shadow-md">
-              Let&apos;s Get Started!
-            </a>
-          </div>
+        <div className="flex justify-center">
+          <Link href="/servicess">
+              <button className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-3 md:px-4 rounded shadow-md">
+              Let's Get Started!
+              </button>
+          </Link>
+        </div>
+
         </div>
 
       </div>

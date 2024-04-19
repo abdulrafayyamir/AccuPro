@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link'
 const ServicePage = () => {
   const sections = [
     {
@@ -79,9 +79,9 @@ const ServicePage = () => {
                   </div>
                 )}
                 {section.buttonLabel && (
-                  <button className="bg-[#37B2E5] text-white font-bold py-3 px-6 rounded-md shadow-md hover:bg-blue-600 transition duration-300 ease-in-out uppercase">
+                  <Link href={"/calendly"} className="bg-[#37B2E5] text-white font-bold py-3 px-6 rounded-md shadow-md hover:bg-blue-600 transition duration-300 ease-in-out uppercase">
                     {section.buttonLabel}
-                  </button>
+                  </Link>
                 )}
               </div>
             </div>

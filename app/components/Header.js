@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-
+import Link from 'next/link'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className='mt-10' >
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <a href="/" className="text-2xl font-bold text-gray-800">AccuPro Bookkeeping</a>
+        <a href="/" className="text-2xl font-bold text-gray-800">AccuPro Bookkeeping LLC</a>
         
         
         <button
@@ -40,13 +40,9 @@ const Header = () => {
         </ul>
         
         
-        <a
-          href="#"
-          className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-4 rounded shadow-md hidden lg:block"
-        >
+        <Link href="/calendly" className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-4 rounded shadow-md hidden lg:block">
           Contact Me
-        </a>
-
+        </Link>
         
         {isMenuOpen && (
           <div className="absolute top-16 right-0 bg-white shadow-md rounded py-2 z-10 lg:hidden">
@@ -55,10 +51,10 @@ const Header = () => {
               <li><a href="/aboutus" className="block px-4 py-2 hover:bg-gray-200">About</a></li>
               <li><a href="/servicess" className="block px-4 py-2 hover:bg-gray-200">Services</a></li>
               <li>
-                <a
-                  href="#"
+              <a
+                  href="/calendly"
                   className="block px-4 py-2 hover:bg-[#37B2E5] bg-[#37B2E5] text-white font-bold py-2 px-4 rounded shadow-md"
-                  onClick={toggleMenu}
+                  
                 >
                   Contact Me
                 </a>

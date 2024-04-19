@@ -1,6 +1,6 @@
 import React from 'react';
-
-const BookDiscovery = ({ onButtonClick }) => {
+import Link from 'next/link'
+const BookDiscovery = () => {
   return (
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
@@ -24,12 +24,12 @@ const BookDiscovery = ({ onButtonClick }) => {
                 Take the first step by booking a discovery call with us today.
               </p>
               <div className="text-center lg:text-left">
-                <button
-                  className="bg-[#37B2E5] text-white font-bold py-3 px-6 rounded-md shadow-md  transition duration-300 ease-in-out inline-block"
-                  onClick={onButtonClick}
-                >
+                <Link
+                  href="/calendly"
+                  className="bg-[#37B2E5] text-white font-bold py-3 px-6 rounded-md shadow-md transition duration-300 ease-in-out inline-block"
+                  >
                   Book a Discovery Call
-                </button>
+                </Link>
               </div>
             </div>
           </div>

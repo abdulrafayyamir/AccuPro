@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link'
 
 const FAQ = () => {
   const faqData = [
@@ -79,7 +80,20 @@ const FAQ = () => {
           </div>
         ))}
       </div>
+
+      <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center uppercase mt-10">Have a question I haven't answered yet?</h2>
+      <div className="flex justify-center items-center">
+        <Link
+        href={"/calendly"}
+        className="bg-[#37B2E5] text-white font-bold py-3 px-6 rounded-md shadow-md hover:bg-blue-600 transition duration-300 ease-in-out uppercase"
+        >
+        Book an Intro Call
+        </Link>
+      </div>
+
     </section>
+
+
   );
 };
 

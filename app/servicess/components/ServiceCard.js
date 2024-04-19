@@ -1,11 +1,12 @@
 import React from 'react';
+import Link from 'next/link'
 
 const ServiceCard = ({ title, description, price, features }) => {
   return (
     <div className="border border-gray-300 rounded-lg p-6 md:p-8 flex flex-col items-center justify-between shadow-lg">
       <div className="flex flex-col items-center">
         {/* Title */}
-        <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center uppercase">{title}</h3>
+        <h4 className="text-1xl md:text-1xl font-bold text-gray-800 mb-4 text-center uppercase"style={{ lineHeight: '1' }}>{title}</h4>
         
         {/* Description */}
         <div className="flex-grow flex items-center mb-6">
@@ -35,11 +36,12 @@ const ServiceCard = ({ title, description, price, features }) => {
         </span>
 
         {/* Button */}
-        <button
+        <Link
+          href={"/calendly"}
           className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-3 px-6 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-sm md:text-base"
         >
-          Let&apos;s Get Started!
-        </button>
+          Let's Get Started!
+        </Link>
       </div>
     </div>
   );
