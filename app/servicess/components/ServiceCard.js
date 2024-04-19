@@ -40,7 +40,7 @@ const ServiceCard = ({ title, description, price, features }) => {
           href={"/calendly"}
           className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-3 px-6 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-sm md:text-base"
         >
-          Let's Get Started!
+          Let&apos;s Get Started!
         </Link>
       </div>
     </div>

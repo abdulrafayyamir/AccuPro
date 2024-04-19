@@ -81,7 +81,7 @@ const FAQ = () => {
         ))}
       </div>
 
-      <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center uppercase mt-10">Have a question I haven't answered yet?</h2>
+      <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center uppercase mt-10">Have a question I haven&apos;t answered yet?</h2>
       <div className="flex justify-center items-center">
         <Link
         href={"/calendly"}

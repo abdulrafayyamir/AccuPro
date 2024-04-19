@@ -79,7 +79,7 @@ const AboutUs = () => {
         <div className="flex justify-center">
           <Link href="/servicess">
               <button className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-3 md:px-4 rounded shadow-md">
-              Let's Get Started!
+              Let&apos;s Get Started!
               </button>
           </Link>
         </div>
