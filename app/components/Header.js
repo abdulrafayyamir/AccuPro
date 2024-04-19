@@ -11,8 +11,16 @@ const Header = () => {
 
   return (
     <header className='mt-10' >
-      <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <a href="/" className="text-2xl font-bold text-gray-800">AccuPro Bookkeeping LLC</a>
+        <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
+      {/* Logo with Text */}
+          <div className="flex items-center">
+        {/* Logo Image */}
+            <img src="/images/accuprologo.jpg" alt="Logo" className="w-20 h-20 mr-2" />
+
+        {/* Text */}
+            <a href="/" className="text-2xl font-bold text-gray-800">AccuPro Bookkeeping LLC</a>
+      </div>
+
         
         
         <button

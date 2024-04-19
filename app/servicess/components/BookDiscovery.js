@@ -5,14 +5,7 @@ const BookDiscovery = () => {
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="mb-12 flex flex-col-reverse lg:flex-row lg:items-center">
-          {/* Image column */}
-          <div className="lg:w-1/2 lg:pr-8 order-2 lg:order-1 mb-6 lg:mb-0">
-            <img
-              src="/images/money.jpg"
-              alt="Section 6 Image"
-              className="rounded-lg w-full lg:h-auto"
-            />
-          </div>
+
           
           {/* Content column */}
           <div className="lg:w-1/2 lg:pl-8 order-1 lg:order-2">
@@ -21,7 +14,7 @@ const BookDiscovery = () => {
                 Ready to make money moves?
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Take the first step by booking a discovery call with us today.
+                <em>Take the first step by booking a discovery call with us today.</em>
               </p>
               <div className="text-center lg:text-left">
                 <Link

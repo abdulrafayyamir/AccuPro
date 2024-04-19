@@ -6,7 +6,7 @@ const ServicePage = () => {
       heading: "Let’s transform your books from cluttered to clear, one monthly report at a time.",
       text: "Managing finances doesn't have to be overwhelming. Get clear insights into your business numbers.",
       buttonLabel: "Book an Intro Call",
-      imageUrl: "/images/breakfast.jpg",
+      imageUrl: "/images/s1.jpg",
     },
     {
       heading: "Setting up strong systems sets your business up for success",
@@ -20,7 +20,7 @@ const ServicePage = () => {
           </p>
         </>
       ),
-      imageUrl: "/images/performance.jpg",
+      imageUrl: "/images/s2.jpg",
     },
     {
       heading: "Accupro helps you with:",
@@ -29,7 +29,7 @@ const ServicePage = () => {
         "CONSISTENT FINANCIAL INSIGHT - Know where your cash is coming from and where it’s going.",
         "PERSONAL STRATEGY & SUPPORT - Expert guidance to help you make the most of your money.",
       ],
-      imageUrl: "/images/sponsor.jpg"
+      imageUrl: "/images/s3.jpg"
     },
   ];
 

@@ -7,7 +7,7 @@ const SectionsComponent = () => {
       
         <div className="mb-12 md:flex md:items-center">
           <div className="md:w-1/2 md:pr-8 md:text-right mb-6">
-            <img src='/images/tired.jpg' alt="Section 1 Image" className="rounded-lg mb-4 md:mb-0 md:rounded-none md:w-full shadow-lg" />
+            <img src='/images/helpin.jpg' alt="Section 1 Image" className="rounded-lg mb-4 md:mb-0 md:rounded-none md:w-full shadow-lg" />
           </div>
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold text-gray-800 mb-4 uppercase">Helping you manage your business finances</h2>
@@ -24,7 +24,7 @@ const SectionsComponent = () => {
         <div className="mb-12 md:flex md:flex-row-reverse md:items-start"> {/* Use 'items-start' to align items at the start */}
           <div className="md:w-1/2 md:pl-8 mb-6">
             {/* Update the image source */}
-            <img src='/images/accounting.jpg' alt="Section 2 Image" className="rounded-lg mb-4 md:mb-0 md:rounded-none md:w-full shadow-lg" />
+            <img src='/images/picture.jpg' alt="Section 2 Image" className="rounded-lg mb-4 md:mb-0 md:rounded-none md:w-full shadow-lg" />
           </div>
           <div className="md:w-1/2 flex flex-col justify-center "> {/* Use 'flex-col' to arrange items in a column */}
             {/* Move the heading here with specific styling for flexbox */}
