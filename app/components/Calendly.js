@@ -14,7 +14,7 @@ const CalendlyComponent = ({ url }) => {
               Schedule a Consultation
             </h2>
             <p className="text-lg text-center text-gray-600 mb-6">
-              Let's chat about your business finances and see how we can help!
+              Let&apos;s chat about your business finances and see how we can help!
             </p>
           </div>
         </div>

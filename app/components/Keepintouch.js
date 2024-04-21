@@ -7,7 +7,7 @@ const KeepInTouchSection = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4 uppercase">Keep In Touch</h2>
           <p className="text-sm text-gray-600 mb-4 text-center">
-            Join us in accountant's corner to get tips + tricks, freebies & special offers delivered to your inbox each week!
+            Join us in accountant&apos;s corner to get tips + tricks, freebies & special offers delivered to your inbox each week!
           </p>
           <form class="flex flex-col justify-center items-center border rounded-lg overflow-hidden  pl-[13%] pr-[13%] pt-10 pb-10 h-full">
               <input
