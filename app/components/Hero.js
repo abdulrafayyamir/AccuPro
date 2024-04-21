@@ -19,13 +19,13 @@ const Hero = () => {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(255, 255, 255, 0.8)', // Light whitish background with opacity
+    backgroundColor: 'rgba(255, 255, 255, 0.5)', // Light whitish background with opacity
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     padding: '2rem',
-    // Black border around the overlay
+    
     borderRadius: '8px', // Rounded corners
   };
 

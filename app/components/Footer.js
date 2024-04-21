@@ -12,10 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
 
         {/* Contact Us Section */}
-        <div className="text-center text-gray-600 md:text-left">
-          <h2 className="text-lg text-center font-bold mb-5 ">Contact Us</h2>
-          <p className="text-center font-bold">Email: hello@accuprobookkeepingllc.com</p>
-          <p className='text-center font-bold'>Phone: (716)-3010248</p>
+    
           <div className="flex justify-center md:justify-center mt-6 gap-3"> {/* Updated justify-center */}
             <a href="https://www.instagram.com/accupro_bookkeeping_llc?igsh=Y3V0YmhyNTJqbmEy" className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
               <FaInstagram size={24} />
@@ -30,11 +27,17 @@ const Footer = () => {
               <FaXTwitter size={24} />
             </a>
           </div>
-        </div>
+        
 
         {/* Branding Section */}
-        <div className="text-center text-gray-800 text-xl font-bold mb-4 md:mb-0">
-          AccuPro Bookkeeping LLC
+        <div className="text-center text-gray-800  font-bold mb-4 md:mb-0">
+
+            <div className="text-center text-gray-600 md:text-left">
+              <h2 className="text-lg text-center font-bold mb-5 ">Contact Us</h2>
+                <p className="text-center font-bold">Email: hello@accuprobookkeepingllc.com</p>
+                  <p className='text-center font-bold'>Phone: (716)-3010248</p>
+                   
+              </div>
         </div>
 
         {/* Logos Section */}
