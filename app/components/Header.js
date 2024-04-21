@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link'
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -18,7 +19,7 @@ const Header = () => {
             <img src="/images/accuprologo.jpg" alt="Logo" className="w-20 h-20 mr-2" />
 
         {/* Text */}
-            <a href="/" className="text-2xl font-bold text-gray-800">AccuPro Bookkeeping LLC</a>
+            <a href="/" className="text-1xl font-bold text-gray-800">AccuPro Bookkeeping LLC</a>
       </div>
 
         
