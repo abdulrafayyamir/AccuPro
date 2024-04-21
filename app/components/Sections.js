@@ -21,19 +21,19 @@ const SectionsComponent = () => {
         </div>
 
         {/* Updated content block */}
-        <div className="mb-12 md:flex md:flex-row-reverse md:items-start"> {/* Use 'items-start' to align items at the start */}
+        <div className="mb-12 md:flex md:flex-row-reverse "> {/* Use 'items-start' to align items at the start */}
           <div className="md:w-1/2 md:pl-8 mb-6">
             {/* Update the image source */}
             <img src='/images/picture.jpg' alt="Section 2 Image" className="rounded-lg mb-4 md:mb-0 md:rounded-none md:w-full shadow-lg" />
           </div>
-          <div className="md:w-1/2 flex flex-col justify-center "> {/* Use 'flex-col' to arrange items in a column */}
-            {/* Move the heading here with specific styling for flexbox */}
-            <div className="mb-4"> 
+          <div className="md:w-1/2 flex flex-col ">
+           
+            <div className="mb-4 mt-[30%]"> 
               <h2 className="text-3xl font-bold text-center text-gray-800 uppercase mt-[5%]">Picture This</h2>
             </div>
             {/* Center the paragraphs vertically */}
-            <div className="flex flex-col  h-full mt-[9%]"> {/* Use 'h-full' to make the container full height */}
-              <p className="text-lg text-gray-600 text-center md:text-center"> {/* Center paragraphs on small screens, left-align on medium screens and larger */}
+            <div className="flex flex-col  h-full mt-[9%] "> {/* Use 'h-full' to make the container full height */}
+              <p className="text-lg text-gray-600 text-center md:text-center "> {/* Center paragraphs on small screens, left-align on medium screens and larger */}
                 You receive Monthly financial reports in your inbox on the 10th of every month.<br/><br/>
                 You have an accountant in your back pocket for all the money questions you used to Google.<br/><br/>
                 You start paying yourself more after gaining financial confidence & tax season feels like a breeze.

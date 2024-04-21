@@ -7,21 +7,31 @@ const KeepInTouchSection = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4 uppercase">Keep In Touch</h2>
           <p className="text-sm text-gray-600 mb-4 text-center">
-            Subscribe to our newsletter to stay updated with the latest news and offers.
+            Join us in accountant's corner to get tips + tricks, freebies & special offers delivered to your inbox each week!
           </p>
-          <form className="flex items-center">
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="bg-white py-2 px-3 text-sm text-gray-800 rounded-l-md shadow-md focus:outline-none focus:ring-2 focus:ring-[#37B2E5] flex-1"
-            />
-            <button
-              type="submit"
-              className="bg-[#37B2E5] hover:bg-[#37B2E5] text-white font-bold py-2 px-4 rounded-r-md shadow-md"
-            >
-              Subscribe
-            </button>
+          <form class="flex flex-col justify-center items-center border rounded-lg overflow-hidden  pl-[13%] pr-[13%] pt-10 pb-10 h-full">
+              <input
+                  type="text"
+                  placeholder="Your name"
+                  class="bg-white py-2 px-3 text-sm text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-[#37B2E5] w-full mb-4"
+              />
+              <input
+                  type="email"
+                  placeholder="Your email address"
+                  class="bg-white py-2 px-3 text-sm text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-[#37B2E5] w-full mb-4"
+              />
+              <div class="flex-grow">
+              <button
+                  type="submit"
+                  class="bg-[#37B2E5] hover:bg-[#1E70B3] text-white font-bold py-2 px-4 rounded-md"
+              >
+                  Subscribe
+              </button>
+              </div> 
+
           </form>
+
+
         </div>
       </div>
     </section>
