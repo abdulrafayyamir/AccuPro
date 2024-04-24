@@ -5,7 +5,7 @@ const Testimonials = () => {
     {
       content:
         `Ali has helped my business in so many ways that I am forever thankful for him and his services. He has helped me in ways that now I feel I have some control over my business. It feels very good to have a person that cares and is supportive on my side.`,
-      author: 'Danny Guardo',
+      author: 'Danny Guardado',
       business: 'Harbor Westlake Roofing'
     },
     {

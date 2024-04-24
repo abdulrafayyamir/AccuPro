@@ -6,7 +6,7 @@ import Link from 'next/link'
 const FAQ = () => {
   const faqData = [
     {
-      question: 'Why should I hire a financial advisor?',
+      question: 'Why should I hire a Bookkeeper?',
       answer: `Many companies prioritize outsourcing tasks that can increase their income. However, this might not always be the best strategy for getting assistance.<br><br>
       Consider hiring help if you identify with any of the following situations:<br>
       - Your financial records are always outdated<br>
